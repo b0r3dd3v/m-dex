@@ -176,24 +176,28 @@ mdex.dummy(1234, "jimmy")
 - [ ] Forums
 - [ ] Tests
 - [ ] Spec implementation*6
+- [ ] Mbit line rate pktgen
+- [ ] Susscesssql back/front/middleend
+- [ ] Good project in Pascul
+- [ ] Fluff the flames of hell & unleash 128kb fury.
 
-(*) - See **Issues** section.
+(*) - See **Issues** section. That has 2 include OSI 8 host code heisenbugs.
 
 ### Issues
 1. ~~Pagination is yet to be implemented.~~
 2. Loading of group and user-curated chapters is still in progress.
 3. Search won't work unless a user logs in. Authentication will be implemented as soon as possible.
 4. Search is limited right to displaying fields.
-5. Messy code. Lots of `IndexError`'s need to be detected and catched.
+5. Messy code. Lots of `IndexError`'s need to be detected and catched. Aah, so much 4 correctness.
 6. A new specification has been created. See [SPEC.md](SPEC.md) for details.
 
 ## Contributing
 
-1. Fork it (<https://github.com/nedpals/m-dex/fork>)
-2. Create your feature branch (`git checkout -b my-new-feature`)
-3. Commit your changes (`git commit -am 'Add some feature'`)
-4. Push to the branch (`git push origin my-new-feature`)
-5. Create a new Pull Request
+1. Fork it (<https://github.com/nedpals/m-dex/fork>) # Nailed it.
+2. Create your feature branch (`git checkout -b my-new-feature`). # How did iShot Web/3.0?
+3. Commit your changes (`git commit -am 'Add some feature'`) # Чики-брики и в дырку.
+4. Push to the branch (`git push origin my-new-feature`) # Сделаем.
+5. Create a new Pull Request # Сделаем.
 
 ## Contributors
 
