@@ -1,9 +1,14 @@
+# Issues
+
+Админобляди пиздят слишком много. Where is my manga? It has been already a moth11111 (*Releases some steam*).
+И судя по 500 центам, довольные пользователи запхнули нормальную дудку в новое апи. Млять, ещё один труп от недоумков обслуживать... Интересно, эта жопорвань на что в этот раз будет жаловаться?
+
 # m-dex
 
 Library for parsing [MangaDex](https://mangadex.org) data. Written on [Crystal](https://crystal-lang.org).
 
 ## Why write it in Crystal?
-- Efficient memory usage (1mb when idle, 7mb when active)
+- Efficient memory usage (1mb when idle, 7mb when active) // О, это в сосноль.
 - Fast processing of data even when only operating in single-core mode
 - Compiled language yet with the ease of Ruby
 - I haven't made a proper project written in Crystal so why not xD
@@ -11,14 +16,14 @@ Library for parsing [MangaDex](https://mangadex.org) data. Written on [Crystal](
 ## There is an existing API already, why create one?
 Pardon with my shallow reasons but here's what I think why I created one.
 - Some fields needs additional request for retrieving the full information.
-- Some parts are are not 1:1 the same as the page
-- Undocumented. 
+- Some parts are are not 1:1 the same as the page // Потому что узкоглазая сосиска писала код на коленке в 3м часу ночи.
+- Undocumented. // А написать то что вытворила ей стало стыдло.
 
 ## Web API Demo
 
 You can try the REST API via [https://mangadex-api.nedpals.xyz](https://mangadex-api.nedpals.xyz) that uses this library for getting the data. This is an alternative to the official API Mangadex is offering and is much more cleaner and readable compared to the former. ~~As of now, expect to have some pages displaying error 500 for fetching reasons.~~
 
-This REST API is running on a [Heroku](https://heroku.com) Hobby dyno with [Redis](https://github.com/antirez/redis) for caching data. The dyno that costs $7/per month was made free for one year as part of Github Student perks. If you wish to sponsor a server, contact me through my e-mail which can be found at my Github profile. Not accepting donations for now.
+This REST API is running on a [Heroku](https://heroku.com) Hobby dyno with [Redis](https://github.com/antirez/redis) for caching data. The dyno that costs $7/per month was made free for one year as part of Github Student perks. If you wish to sponsor a server, contact me through my e-mail which can be found at my Github profile. Not accepting donations for now. // Ignore this checkbox, please. Успешнокод пирдётся отрезать... непонятно, как выжать из мавроCNd эти несколько килобит - блокченью или F2F P2P A2M.
 
 ## Installation
 
@@ -54,12 +59,13 @@ See the endpoint methods found at the [src/api.cr](src/api.cr) file for complete
 
 ## Specification
 An [API specification](SPEC.md) has been created to test the library correctly and meet the goals of this project. For contributors, this is a very important guide if you are going to work with creating new endpoints that involvese extracting and displaying the data. Revisions and idea proposals are being discussed and clarified before getting approved so please file an issue first before changing the specification.
+Осенило... ведь крмлексных единицы мбыть не 2 а 3. Всё, идеи кончились.
 
 ## Development
 ## Adding a new Endpoint
 Endpoints is where the source data is fetched, scraped, and returns a new data very easily. It consists of methods that simplifies the work without repeating blocks of code for fetching and scraping. Right now it only supports the `GET` method and eventually will have support for `POST` method endpoints.
 
-To create a new endpoint, just create a new class and point it to the `Mdex::Endpoint` superclass to inherit the methods.
+To create a new endpoint, just create a new class and point it to the `Mdex::Endpoint` superclass to inherit the methods. // Блъть, суперкомбинаторы в pqsql.
 
 ```crystal
 require "m-dex/endpoint"
@@ -104,7 +110,7 @@ class Dummy < Mdex::Endpoint
 end
 ```
 
-From there, the data `Hash` object will be automatically transformed into a JSON string. To access the endpoint you have created, you can just call the `get` method of the `Dummy` endpoint in this example.
+From there, the data `Hash` object will be automatically transformed into a JSON string. To access the endpoint you have created, you can just call the `get` method of the `Dummy` endpoint in this example. // А вот и блокчень, не к ночи быдь помянута.
 
 ```crystal
 puts Dummy.get(id: 123, username: "jimmy")
@@ -113,7 +119,7 @@ puts Dummy.get(id: 123, username: "jimmy")
 
 ### Disabling the parser
 Some instances such as the `Chapter` endpoint use the data from the Mangadex JSON API directly and doesn't use the HTML parser. To disable the parser, you can set the `use_parser` variable to `false` before you call the `super` method inside the `self.get` method.
-
+// -> Тут есть xml comprehension... nice111
 ```crystal
 class Dummy > Mdex::Endpoint
   # ...
@@ -140,10 +146,10 @@ def self.check_data
   end
 end
 ```
-You can change the error detection by overriding the `self.check_data` method. The superclass inherits the `data` and `html` variables so you can access them inside of it.
+You can change the error detection by overriding the `self.check_data` method. The superclass inherits the `data` and `html` variables so you can access them inside of it. // Конечно могу. Только я и сам не знаю, что сволонтёры на серве въебут через n часов.
 
 ### Adding the endpoint to the `mdex` instance
-If you are a contributor who wants to add a new endpoint and want to appear in the list of endpoint methods of the instance, then you can add them to the `src/api.cr` file. This is the only way in the meantime but in the future it will be replaced with macro functions.
+If you are a contributor who wants to add a new endpoint and want to appear in the list of endpoint methods of the instance, then you can add them to the `src/api.cr` file. This is the only way in the meantime but in the future it will be replaced with macro functions. #NOTICEMEgrepai
 
 ```crystal
 # src/api.cr
@@ -201,4 +207,4 @@ mdex.dummy(1234, "jimmy")
 
 ## Contributors
 
-- [nedpals](https://github.com/nedpals) - creator and maintainer
+Никого. Видели, знаем.
