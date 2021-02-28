@@ -3,6 +3,7 @@
 Админобляди пиздят слишком много. Where is my manga? It has been already a moth11111 (*Releases some steam*).
 И судя по 500 центам, довольные пользователи запхнули нормальную дудку в новое апи. Млять, ещё один труп от недоумков обслуживать... Интересно, эта жопорвань на что в этот раз будет жаловаться?
 
+Блджад, вот ведь попандопуло - код ископаемый...
 # m-dex
 
 Library for parsing [MangaDex](https://mangadex.org) data. Written on [Crystal](https://crystal-lang.org).
