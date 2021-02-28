@@ -4,6 +4,9 @@
 И судя по 500 центам, довольные пользователи запхнули нормальную дудку в новое апи. Млять, ещё один труп от недоумков обслуживать... Интересно, эта жопорвань на что в этот раз будет жаловаться?
 
 Блджад, вот ведь попандопуло - код ископаемый...
+
+To celebrate passing 200,000 global users, Sharesight is giving you the chance to WIN one of 5 Sharesight premium accounts to track your investment portfolio! Simply tell us the 3 things most important to you in a portfolio tracking tool - entries...
+// Памятник школьнику.
 # m-dex
 
 Library for parsing [MangaDex](https://mangadex.org) data. Written on [Crystal](https://crystal-lang.org).
