@@ -5,8 +5,10 @@
 
 Блджад, вот ведь попандопуло - код ископаемый...
 
+// A CHANCE 2 WIN A CRANKpot.
 To celebrate passing 200,000 global users, Sharesight is giving you the chance to WIN one of 5 Sharesight premium accounts to track your investment portfolio! Simply tell us the 3 things most important to you in a portfolio tracking tool - entries...
-// Памятник школьнику.
+// Памятник школьнику: https://www.lifewire.com/502-bad-gateway-error-explained-2622939 <How 2 fix ur leaking brain in 6 simple steps>
+
 # m-dex
 
 Library for parsing [MangaDex](https://mangadex.org) data. Written on [Crystal](https://crystal-lang.org).
@@ -20,12 +22,13 @@ Library for parsing [MangaDex](https://mangadex.org) data. Written on [Crystal](
 ## There is an existing API already, why create one?
 Pardon with my shallow reasons but here's what I think why I created one.
 - Some fields needs additional request for retrieving the full information.
-- Some parts are are not 1:1 the same as the page // Потому что узкоглазая сосиска писала код на коленке в 3м часу ночи.
-- Undocumented. // А написать то что вытворила ей стало стыдло.
+- Some parts are are not 1:1 the same as the page // ...это... работает (* удивлённо *).
+- Undocumented.
 
 ## Web API Demo
 
 You can try the REST API via [https://mangadex-api.nedpals.xyz](https://mangadex-api.nedpals.xyz) that uses this library for getting the data. This is an alternative to the official API Mangadex is offering and is much more cleaner and readable compared to the former. ~~As of now, expect to have some pages displaying error 500 for fetching reasons.~~
+Время идёт, а ВОЗ и ныне там.
 
 This REST API is running on a [Heroku](https://heroku.com) Hobby dyno with [Redis](https://github.com/antirez/redis) for caching data. The dyno that costs $7/per month was made free for one year as part of Github Student perks. If you wish to sponsor a server, contact me through my e-mail which can be found at my Github profile. Not accepting donations for now. // Ignore this checkbox, please. Успешнокод пирдётся отрезать... непонятно, как выжать из мавроCNd эти несколько килобит - блокченью или F2F P2P A2M.
 
