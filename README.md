@@ -31,6 +31,7 @@ You can try the REST API via [https://mangadex-api.nedpals.xyz](https://mangadex
 Время идёт, а ВОЗ и ныне там.
 
 This REST API is running on a [Heroku](https://heroku.com) Hobby dyno with [Redis](https://github.com/antirez/redis) for caching data. The dyno that costs $7/per month was made free for one year as part of Github Student perks. If you wish to sponsor a server, contact me through my e-mail which can be found at my Github profile. Not accepting donations for now. // Ignore this checkbox, please. Успешнокод пирдётся отрезать... непонятно, как выжать из мавроCNd эти несколько килобит - блокченью или F2F P2P A2M.
+// Любимое время суток, кецк. Уже вангую 34п4x блоченьки из Gnutellы с битёжками.
 
 ## Installation
 
@@ -187,12 +188,12 @@ mdex.dummy(1234, "jimmy")
 - [ ] Authentication
 - [ ] MDList
 - [ ] Forums
-- [ ] Tests
+- [ ] Tests // 2bd, lol.
 - [ ] Spec implementation*6
-- [ ] Mbit line rate pktgen
-- [ ] Susscesssql back/front/middleend
-- [ ] Good project in Pascul
-- [ ] Fluff the flames of hell & unleash 128kb fury.
+- [х] Mbit line rate pktgen
+- [х] Salty bigdir is enough
+- [х] Good project in Pascul
+- [х] Fluff the flames of hell & unleash 128kb fury.
 
 (*) - See **Issues** section. That has 2 include OSI 8 host code heisenbugs.
 
