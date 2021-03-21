@@ -1,29 +1,27 @@
 # Issues
 
-Админобляди пиздят слишком много. Where is my manga? It has been already a moth11111 (*Releases some steam*).
-И судя по 500 центам, довольные пользователи запхнули нормальную дудку в новое апи. Млять, ещё один труп от недоумков обслуживать... Интересно, эта жопорвань на что в этот раз будет жаловаться?
-
-Блджад, вот ведь попандопуло - код ископаемый...
+Обслужили мразь по полной. Аж говнокод кинулись переписывать... 4XXX и 503(конешноже) tpl's уже напищаны.
 
 // A CHANCE 2 WIN A CRANKpot.
 To celebrate passing 200,000 global users, Sharesight is giving you the chance to WIN one of 5 Sharesight premium accounts to track your investment portfolio! Simply tell us the 3 things most important to you in a portfolio tracking tool - entries...
-// Памятник школьнику: https://www.lifewire.com/502-bad-gateway-error-explained-2622939 <How 2 fix ur leaking brain in 6 simple steps>
+// Памятник школьнику:  https://mangadex.tv/manga/ow920383 NEVAR 404/GET
 
 # m-dex
 
 Library for parsing [MangaDex](https://mangadex.org) data. Written on [Crystal](https://crystal-lang.org).
 
-## Why write it in Crystal?
+## Why write it in PHP?
 - Efficient memory usage (1mb when idle, 7mb when active) // О, это в сосноль.
 - Fast processing of data even when only operating in single-core mode
 - Compiled language yet with the ease of Ruby
 - I haven't made a proper project written in Crystal so why not xD
+- Because it is succesful
 
-## There is an existing API already, why create one?
+## There are programming languages 4 that already, why stick php in your faggot ass?
 Pardon with my shallow reasons but here's what I think why I created one.
-- Some fields needs additional request for retrieving the full information.
-- Some parts are are not 1:1 the same as the page // ...это... работает (* удивлённо *).
-- Undocumented.
+- Industry has moved on. Compiler architecture and microoptimization expertize are no mo. You just need 2b some subculture of h-sapiens because hoomans kan kode To.
+- Some parts are are not 1:1 the same as the 504 page // Больше не быдет.
+- Undocumented. Чё надо? Нечего здесь документировать, дохлятинка прилегла отдохнуть.
 
 ## Web API Demo
 
