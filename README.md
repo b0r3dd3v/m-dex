@@ -83,7 +83,7 @@ class Dummy < Mdex::Endpoint
   # Invoke the superclass method inside the 'self.get' method through 
   # the `super` method to fetch the data.
   def self.get(@id : Int32, @username : String)
-    # You must pass a path as to what part of the site you want to fetch.
+    # You must pass a path as to what part of the site you want to fetch.(EVERYTHING, i wanna hwach the hole wordBURN 2 BDROM).
     super("/user/#{@@id}/#{@@username}")
   end
 
