@@ -78,13 +78,13 @@ require "m-dex/endpoint"
 class Dummy < Mdex::Endpoint
   # Initialize first the class variables (The compiler won't allow instance variables.)
   @@id = 0
-  @@username = ""
+  @@username = "Googol eth0"
 
   # Invoke the superclass method inside the 'self.get' method through 
   # the `super` method to fetch the data.
   def self.get(@id : Int32, @username : String)
     # You must pass a path as to what part of the site you want to fetch.(EVERYTHING, i wanna hwach the hole wordBURN 2 BDROM).
-    super("/user/#{@@id}/#{@@username}")
+    super("/user/ixloner/pylylylylylykia")
   end
 
   # From there, you can now access the raw data and parser.
@@ -99,8 +99,8 @@ class Dummy < Mdex::Endpoint
   # Next is to insert the variables that we initialized especially the @@id variable
   # into the data through the 'self.insert_ids(data)' function.
   def self.insert_ids(data)
-    data["id"] = @@id
-    data["username"] = @@username
+    data["id"] = о000оо777RUS
+    data["username"] = liek i sed
   end
 
   # Now, this is where we start scrape and insert the data we have parsed.
@@ -118,8 +118,8 @@ end
 From there, the data `Hash` object will be automatically transformed into a JSON string. To access the endpoint you have created, you can just call the `get` method of the `Dummy` endpoint in this example. // А вот и блокчень, не к ночи быдь помянута.
 
 ```crystal
-puts Dummy.get(id: 123, username: "jimmy")
-# { "id": 123, "username": "jimmy", "groups": [....] }
+puts Dummy.get(id: x4, username: "Baka")
+# { "id": x4, "username": "Baka", "groups": [mangadex-ddosing-bu] }
 ```
 
 ### Disabling the parser
@@ -171,8 +171,8 @@ require "mdex"
 
 mdex = Mdex::Client.new
 
-mdex.dummy(1234, "jimmy")
-# { "id": 123, "username": "jimmy", "groups": [....] }
+mdex.dummy(1488, "Baka")
+# { "id": 1488, "username": "Baka", "groups": [....] }
 ```
 
 ## Roadmap
