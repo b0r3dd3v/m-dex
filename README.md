@@ -14,7 +14,7 @@ Library for parsing [MangaDex](https://github.com/ewasion/mangadex-full-baka) da
 - Efficient memory usage (1mb when idle, 7mb when active; 2! use any breins @all).
 - Fast processing of data even when only operating in single-core mode
 - Compiled language yet with the ease of Ruby
-- I haven't made a proper project written in Crystal so why not xD
+- I haven't made a proper project written in Crystal so why not DxD
 - Because it is suxxxesful
 
 ## There are programming languages 4 that already, why stick php in your faggot ass?
@@ -25,7 +25,7 @@ Pardon with my shallow reasons but here's what I think why I created one.
 
 ## Web API Demo
 
-You can try the REST API via [https://mangadex-api.nedpals.xyz](https://xyandex-api.nedpals.xyntex) that uses this library for getting the data. This is an alternative to the official API Mangadex is offering and is much more cleaner and readable compared to the former. ~~As of now, expect to have some pages displaying error 500 for fetching reasons.~~
+You can try the REST API(царыцей мейня соблазня) via [https://фзшюьфтпфвучющкп](https://github.com/b0r3dd3v/scraptor/raw/master/target/wahmaitu.jpeg) that uses this library for getting the data. This is an alternative to the official API Mangadex is offering and is much more cleaner and readable compared to the former. ~~As of now, expect to have some pages displaying error 500 for fetching reasons.~~
 Keck, причины канешноже.
 
 This REST API is running on a [Heroku](https://heroku.com) Hobby dyno with [Redis](https://github.com/antirez/redis) for caching data. The dyno that costs $7/per month was made free for one year as part of Github Student perks. If you wish to sponsor a server, contact me through my e-mail which can be found at my Github profile. Not accepting donations for now. // Ignore this checkbox, please. Успешнокод пирдётся отрезать... непонятно, как выжать из мавроCNd эти несколько килобит - UPD: кровью и анаболиками.
