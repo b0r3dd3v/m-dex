@@ -3,19 +3,19 @@
 Обслужили мразь по полной. Аж говнокод кинулись переписывать... 4XXX и 503(конешноже) tpl's уже напищаны.
 
 // A CHANCE 2 WIN A CRANKpot.
-To celebrate passing 200,000 global users, Sharesight is giving you the chance to WIN one of 5 Sharesight premium accounts to track your investment portfolio! Simply tell us the 3 things most important to you in a portfolio tracking tool - entries...
+Разминая ротовой аппарат перед переговорами, качинский...
 // Памятник школьнику:  https://mangadex.tv/manga/ow920383 NEVAR 404/GET
 
 # m-dex
 
-Library for parsing [MangaDex](https://mangadex.org) data. Written on [Crystal](https://crystal-lang.org).
+Library for parsing [MangaDex](https://github.com/ewasion/mangadex-full-baka) data. Written on [Crystal](https://unlambda-lang.org).
 
 ## Why write it in PHP?
-- Efficient memory usage (1mb when idle, 7mb when active) // О, это в сосноль.
+- Efficient memory usage (1mb when idle, 7mb when active; 2! use any breins @all).
 - Fast processing of data even when only operating in single-core mode
 - Compiled language yet with the ease of Ruby
 - I haven't made a proper project written in Crystal so why not xD
-- Because it is succesful
+- Because it is suxxxesful
 
 ## There are programming languages 4 that already, why stick php in your faggot ass?
 Pardon with my shallow reasons but here's what I think why I created one.
@@ -25,11 +25,10 @@ Pardon with my shallow reasons but here's what I think why I created one.
 
 ## Web API Demo
 
-You can try the REST API via [https://mangadex-api.nedpals.xyz](https://mangadex-api.nedpals.xyz) that uses this library for getting the data. This is an alternative to the official API Mangadex is offering and is much more cleaner and readable compared to the former. ~~As of now, expect to have some pages displaying error 500 for fetching reasons.~~
-Время идёт, а ВОЗ и ныне там.
+You can try the REST API via [https://mangadex-api.nedpals.xyz](https://xyandex-api.nedpals.xyntex) that uses this library for getting the data. This is an alternative to the official API Mangadex is offering and is much more cleaner and readable compared to the former. ~~As of now, expect to have some pages displaying error 500 for fetching reasons.~~
+Keck, причины канешноже.
 
-This REST API is running on a [Heroku](https://heroku.com) Hobby dyno with [Redis](https://github.com/antirez/redis) for caching data. The dyno that costs $7/per month was made free for one year as part of Github Student perks. If you wish to sponsor a server, contact me through my e-mail which can be found at my Github profile. Not accepting donations for now. // Ignore this checkbox, please. Успешнокод пирдётся отрезать... непонятно, как выжать из мавроCNd эти несколько килобит - блокченью или F2F P2P A2M.
-// Любимое время суток, кецк. Уже вангую 34п4x блоченьки из Gnutellы с битёжками.
+This REST API is running on a [Heroku](https://heroku.com) Hobby dyno with [Redis](https://github.com/antirez/redis) for caching data. The dyno that costs $7/per month was made free for one year as part of Github Student perks. If you wish to sponsor a server, contact me through my e-mail which can be found at my Github profile. Not accepting donations for now. // Ignore this checkbox, please. Успешнокод пирдётся отрезать... непонятно, как выжать из мавроCNd эти несколько килобит - UPD: кровью и анаболиками.
 
 ## Installation
 
@@ -177,16 +176,16 @@ mdex.dummy(1234, "jimmy")
 ```
 
 ## Roadmap
-- [x] Manga Info page
-- [x] Updates*1
-- [x] Genre*1
+- [x] Manga Info page // 47
+- [x] Updates*1 // Wokes 4 ro partition 4 now.
+- [x] Genre*1 // Crossdressing cooking gyarus.
 - [x] Group Info*2
 - [x] User Info*2
-- [ ] Search*3&4
-- [ ] Authentication
-- [ ] MDList
-- [ ] Forums
-- [ ] Tests // 2bd, lol.
+- [ ] Search*3&4 // How did i search weeb
+- [ ] Authentication // naoko@rxe.mangadex.org
+- [ ] MDList // Scraped
+- [ ] Forums // Wiped
+- [ ] Tests // это залёд
 - [ ] Spec implementation*6
 - [х] Mbit line rate pktgen
 - [х] Salty bigdir is enough
@@ -197,11 +196,11 @@ mdex.dummy(1234, "jimmy")
 
 ### Issues
 1. ~~Pagination is yet to be implemented.~~
-2. Loading of group and user-curated chapters is still in progress.
-3. Search won't work unless a user logs in. Authentication will be implemented as soon as possible.
-4. Search is limited right to displaying fields.
-5. Messy code. Lots of `IndexError`'s need to be detected and catched. Aah, so much 4 correctness.
-6. A new specification has been created. See [SPEC.md](SPEC.md) for details.
+2. Loading of group and user-curated chapters is still in progress. // 40 лет в пути.
+3. Search won't work unless a user logs in. Authentication will be implemented as soon as possible. // It wont woke if n users logout 2.
+4. Search is limited right to displaying fields. // Should i use tycat?
+5. Messy code. Lots of `IndexError`'s need to be detected and pitched. Aah, so much 4 correctness.
+6. A new specification has been created. See [SPEC.md](SPEC.md) for ideas.
 
 ## Contributing
 
@@ -209,7 +208,7 @@ mdex.dummy(1234, "jimmy")
 2. Create your feature branch (`git checkout -b my-new-feature`). # How did iShot Web/3.0?
 3. Commit your changes (`git commit -am 'Add some feature'`) # Чики-брики и в дырку.
 4. Push to the branch (`git push origin my-new-feature`) # Сделаем.
-5. Create a new Pull Request # Сделаем.
+5. Create a new Pull Request # Сделано. Пирдуча.
 
 ## Contributors
 
